@@ -1,0 +1,81 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.26.0
+    method: GET
+    uri: https://zccsamueltjong.zendesk.com/api/v2/tickets/count.json
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA6tWSs4vzStRsqpWKkvMKU1VsjIy01EqSk0rSi3OSE2JTwRKKRkZGBnqGhrpGhiF
+        GJhbmZhYGVpoGxhYGRgo1dYCAO6SGw5BAAAA
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 6b72edde2ed55601-SIN
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Thu, 02 Dec 2021 07:44:18 GMT
+      ETag:
+      - W/"ea53f551ec4f754b4548a3a82ab287a5"
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=tiA9ikoVmaqGUUYdor51UNdeBWL5%2F3R%2FymJUOHJD88eAhvLEWwTfN0kIFoNt6JLFDDJEJbANZaHekP8sAWEyT2Ui5agHvAMS7vr32RHZ8H5kI0zMgxecOMj3oiDrpFFcDtSTf1ktWFUhOFno"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Set-Cookie:
+      - __cfruid=4edaacbe0b0d75c36fe969bf21b2f13686ac84ee-1638431058; path=/; domain=.zccsamueltjong.zendesk.com;
+        HttpOnly; Secure; SameSite=None
+      Strict-Transport-Security:
+      - max-age=31536000;
+      Transfer-Encoding:
+      - chunked
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Rate-Limit:
+      - '400'
+      X-Rate-Limit-Remaining:
+      - '399'
+      X-Request-ID:
+      - 6b72edde2ed55601-NRT
+      - 6b72edde2ed55601-NRT
+      X-Request-Id:
+      - 6b72edde2ed55601-NRT
+      - 6b72edde2ed55601-NRT
+      X-Runtime:
+      - '0.240725'
+      X-Zendesk-API-Version:
+      - v2
+      X-Zendesk-Application-Version:
+      - v10533
+      X-Zendesk-Origin-Server:
+      - classic-app-server-9ff6d4569-bdh8t
+      X-Zendesk-Zorg:
+      - 'yes'
+      Zendesk-Api-Version:
+      - '2022-01-01'
+    status:
+      code: 200
+      message: OK
+version: 1

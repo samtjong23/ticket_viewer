@@ -1,0 +1,208 @@
+{
+  "tickets": [
+    {
+      "id": 1,
+      "updated_at": "2021-12-02T06:15:20Z",
+      "type": "incident",
+      "subject": "Sample ticket: Meet the ticket",
+      "priority": "normal",
+      "status": "open"
+    },
+    {
+      "id": 11,
+      "updated_at": "2021-12-02T03:36:29Z",
+      "type": null,
+      "subject": "quis veniam ad sunt non",
+      "priority": null,
+      "status": "open"
+    },
+    {
+      "id": 53,
+      "updated_at": "2021-12-02T01:35:59Z",
+      "type": null,
+      "subject": "reprehenderit id non aliqua enim",
+      "priority": null,
+      "status": "open"
+    },
+    {
+      "id": 52,
+      "updated_at": "2021-12-02T01:35:59Z",
+      "type": null,
+      "subject": "fugiat sunt do incididunt enim",
+      "priority": null,
+      "status": "open"
+    },
+    {
+      "id": 51,
+      "updated_at": "2021-12-02T01:35:58Z",
+      "type": null,
+      "subject": "esse ut qui do aute",
+      "priority": null,
+      "status": "open"
+    },
+    {
+      "id": 50,
+      "updated_at": "2021-12-02T01:35:58Z",
+      "type": null,
+      "subject": "officia magna velit nostrud ullamco",
+      "priority": null,
+      "status": "open"
+    },
+    {
+      "id": 49,
+      "updated_at": "2021-12-02T01:35:58Z",
+      "type": null,
+      "subject": "qui voluptate culpa do tempor",
+      "priority": null,
+      "status": "open"
+    },
+    {
+      "id": 48,
+      "updated_at": "2021-12-02T01:35:57Z",
+      "type": null,
+      "subject": "sunt dolore excepteur laborum magna",
+      "priority": null,
+      "status": "open"
+    },
+    {
+      "id": 47,
+      "updated_at": "2021-12-02T01:35:57Z",
+      "type": null,
+      "subject": "officia voluptate sit sunt pariatur",
+      "priority": null,
+      "status": "open"
+    },
+    {
+      "id": 46,
+      "updated_at": "2021-12-02T01:35:56Z",
+      "type": null,
+      "subject": "irure esse irure qui dolore",
+      "priority": null,
+      "status": "open"
+    },
+    {
+      "id": 45,
+      "updated_at": "2021-12-02T01:35:56Z",
+      "type": null,
+      "subject": "proident esse laboris officia pariatur",
+      "priority": null,
+      "status": "open"
+    },
+    {
+      "id": 44,
+      "updated_at": "2021-12-02T01:35:56Z",
+      "type": null,
+      "subject": "velit in sit deserunt id",
+      "priority": null,
+      "status": "open"
+    },
+    {
+      "id": 43,
+      "updated_at": "2021-12-02T01:35:55Z",
+      "type": null,
+      "subject": "eu id magna aute occaecat",
+      "priority": null,
+      "status": "open"
+    },
+    {
+      "id": 42,
+      "updated_at": "2021-12-02T01:35:55Z",
+      "type": null,
+      "subject": "ut anim tempor voluptate deserunt",
+      "priority": null,
+      "status": "open"
+    },
+    {
+      "id": 41,
+      "updated_at": "2021-12-02T01:35:55Z",
+      "type": null,
+      "subject": "amet ipsum amet laborum sit",
+      "priority": null,
+      "status": "open"
+    },
+    {
+      "id": 40,
+      "updated_at": "2021-12-02T01:35:54Z",
+      "type": null,
+      "subject": "sit pariatur nisi reprehenderit sit",
+      "priority": null,
+      "status": "open"
+    },
+    {
+      "id": 39,
+      "updated_at": "2021-12-02T01:35:54Z",
+      "type": null,
+      "subject": "incididunt mollit pariatur esse esse",
+      "priority": null,
+      "status": "open"
+    },
+    {
+      "id": 38,
+      "updated_at": "2021-12-02T01:35:53Z",
+      "type": null,
+      "subject": "ipsum ex id minim eu",
+      "priority": null,
+      "status": "open"
+    },
+    {
+      "id": 37,
+      "updated_at": "2021-12-02T01:35:53Z",
+      "type": null,
+      "subject": "enim duis deserunt ipsum ad",
+      "priority": null,
+      "status": "open"
+    },
+    {
+      "id": 36,
+      "updated_at": "2021-12-02T01:35:53Z",
+      "type": null,
+      "subject": "in id consequat dolore enim",
+      "priority": null,
+      "status": "open"
+    },
+    {
+      "id": 35,
+      "updated_at": "2021-12-02T01:35:52Z",
+      "type": null,
+      "subject": "laboris et proident qui enim",
+      "priority": null,
+      "status": "open"
+    },
+    {
+      "id": 34,
+      "updated_at": "2021-12-02T01:35:52Z",
+      "type": null,
+      "subject": "proident esse ut velit labore",
+      "priority": null,
+      "status": "open"
+    },
+    {
+      "id": 33,
+      "updated_at": "2021-12-02T01:35:51Z",
+      "type": null,
+      "subject": "fugiat non aliqua irure aliquip",
+      "priority": null,
+      "status": "open"
+    },
+    {
+      "id": 32,
+      "updated_at": "2021-12-02T01:35:51Z",
+      "type": null,
+      "subject": "velit irure elit incididunt non",
+      "priority": null,
+      "status": "open"
+    },
+    {
+      "id": 31,
+      "updated_at": "2021-12-02T01:35:51Z",
+      "type": null,
+      "subject": "aute ipsum sint exercitation labore",
+      "priority": null,
+      "status": "open"
+    }
+  ],
+  "links": {
+    "prev": "https://zccsamueltjong.zendesk.com/api/v2/tickets.json?page%5Bbefore%5D=eyJvIjoiLXVwZGF0ZWRfYXQsLWlkIiwidiI6IlpIaGtxR0VBQUFBQWFad2JNYmk2QVFBQSJ9&page%5Bsize%5D=25&sort=-updated_at",
+    "next": "https://zccsamueltjong.zendesk.com/api/v2/tickets.json?page%5Bafter%5D=eyJvIjoiLXVwZGF0ZWRfYXQsLWlkIiwidiI6IlpQY2lxR0VBQUFBQWFUclN4YzdTQUFBQSJ9&page%5Bsize%5D=25&sort=-updated_at"
+  }
+}

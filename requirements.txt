@@ -1,0 +1,5 @@
+python_dotenv==0.19.2
+requests==2.26.0
+pytz==2021.3
+pytest==6.2.4
+pytest-recording==0.12.0

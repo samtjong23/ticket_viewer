@@ -1,0 +1,8 @@
+{
+  "id": 1,
+  "updated_at": "2021-12-02T06:15:20Z",
+  "type": "incident",
+  "subject": "Sample ticket: Meet the ticket",
+  "priority": "normal",
+  "status": "open"
+}

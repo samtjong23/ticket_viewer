@@ -1,0 +1,91 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.26.0
+    method: GET
+    uri: https://zccsamueltjong.zendesk.com/api/v2/tickets/1.json
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA5VTu3LbMBD8FQxqSiIpUZbYpHCTFKmiKnGGcwJPJCwQQPCwY3s0k9/I7+VLciCp
+        jJIubDDYO9zt7h3feJDijIHXbzw6xWveh2B9vVq9CuFhiKjCo9Hd8hV1i/68FGZYgZWrp3I1vfSr
+        YvnojeYZly2vi4zj94BOg2rSXUelMv4kIXUQPWiNqQuVtgqbuXnGvYlOYMo5OTPQecl4MNPp0otU
+        50KgcAgB2waIMi/zslgUxaK8OxSbuqrqcv2ZeETb/ptTLvLykG/rgnLylBNeLLXjUgvZog6E+Hh8
+        RJHKfhrJsYlczT4iBhb6K0CpDp6b/0gn44STNkhyqebvZSrmMHvQD/rDrx8/B+bJXKk7BprhAFKx
+        IwqIHtkU7uFpjDLrzFFhyg8hIdGyFzKOaXxOsTaKsGT3VIVQ1qOybCDWzkR65XtjwrvU80BTOHtq
+        zw4k6j76YAZ0KULSrJPGyfBCRLVxA6jkTIAQPSHGYspxKKSVybV5vA6/RfQ09XHkxT7Pd+v1vix3
+        u93o6yDDNbjP15tqW1WbvNxmHLyXnUYc3/0dMq4DLV8huXazSR2pseN9synyqqRqxfZuTYthlIKj
+        cRBMokF0v3zN+IlQ8zwSm5HR4EaI2xwXhyYYKxN41TR7fYP04JvrvlCxEyiPtPS+seSvFLwOLhLQ
+        Rhy3c9r8AF1qPC/8uGbWGpcWbv6lONEU4xCak0R15elJuT+BGPWTKpr3tabvwdG1gc4hDjSHGy03
+        FSbto1uz9mmjmxMNdtSVJkVfuat2G5rU0YFubwPrar/bUgCSic389x5BnP+onyIQAog+MaFGyYXL
+        5Tdjc77gWQQAAA==
+    headers:
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 6b72d60d9e4c5607-SIN
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json; charset=UTF-8
+      Date:
+      - Thu, 02 Dec 2021 07:28:03 GMT
+      ETag:
+      - W/"90dfe10e4cd6224960b5b66ab964eea8"
+      Expect-CT:
+      - max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+      NEL:
+      - '{"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}'
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2Fh13LgRiVmI8fAb7uI%2BCXu0C3cytE0a14mNEwQNjR3xG96V7wK2XLKL6RMU7JnZ9ZD%2B6bx7M7eFHWzz4CUqQXQrKSkRcGXxfCkMTVfqwZDcjhUO51eu3frYqA8HtGTsd4YMej8FnbD1SaaFT"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Set-Cookie:
+      - __cfruid=c049df4700281a7b538468b29da850524edfef3a-1638430083; path=/; domain=.zccsamueltjong.zendesk.com;
+        HttpOnly; Secure; SameSite=None
+      Strict-Transport-Security:
+      - max-age=31536000;
+      Transfer-Encoding:
+      - chunked
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Rate-Limit:
+      - '400'
+      X-Rate-Limit-Remaining:
+      - '399'
+      X-Request-ID:
+      - 6b72d60d9e4c5607-NRT
+      - 6b72d60d9e4c5607-NRT
+      X-Request-Id:
+      - 6b72d60d9e4c5607-NRT
+      - 6b72d60d9e4c5607-NRT
+      X-Runtime:
+      - '0.669888'
+      X-Zendesk-API-Version:
+      - v2
+      X-Zendesk-Application-Version:
+      - v10531
+      X-Zendesk-Origin-Server:
+      - classic-app-server-5984f4454c-w9lbb
+      X-Zendesk-Zorg:
+      - 'yes'
+      Zendesk-Api-Version:
+      - '2022-01-01'
+    status:
+      code: 200
+      message: OK
+version: 1
