@@ -164,6 +164,7 @@ class CLIApp():
         self.next_link = get_tickets_response.next_link
 
         all_options = ["next", "prev"]
+
         # Should not keep going in the same direction
         # since there are no more tickets to see
         if len(tickets) < 25:
@@ -183,6 +184,7 @@ class CLIApp():
         self.page_through_options.remove(input)
 
         # Ask the user to return to the main menu and try again later
+        # if there are no more options
         self.print_page_through_results(
           [], 
           1 if len(self.page_through_options) == 1 else 2
