@@ -18,9 +18,9 @@ class GetTicketsResponse(NamedTuple):
 
 class TicketViewer:
 	def __init__(self, url: str, email:str, password: str) -> None:
-		self.url = url
-		self.email = email
-		self.password = password
+		self.url: str = url
+		self.email: str = email
+		self.password: str = password
 
 	def count_tickets(self) -> CountTicketsResponse:
 		"""

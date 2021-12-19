@@ -5,6 +5,7 @@ import re
 from typing import List, Dict, Optional
 
 from ticket_viewer import STATUS_CODE_MESSAGE
+from ticket_viewer.ticket_viewer import TicketViewer
 from ticket_viewer.util import *
 
 class CLIApp():
@@ -14,11 +15,11 @@ class CLIApp():
   """
   
   def __init__(self) -> None:
-    self.ticket_viewer = get_ticket_viewer() # To connect to Zendesk API
-    self.prev_link = "" # To access prev page of tickets if >25 tickets are returned
-    self.next_link = "" # To access next page of tickets if >25 tickets are returned
-    self.is_page_through = False # If the user is paging through tickets
-    self.page_through_options = ["", ""] # Where there might be more tickets to see
+    self.ticket_viewer: TicketViewer = get_ticket_viewer() # To connect to Zendesk API
+    self.prev_link: Optional[str] = None # To access prev page of tickets if >25 tickets are returned
+    self.next_link: Optional[str] = None # To access next page of tickets if >25 tickets are returned
+    self.is_page_through: bool = False # If the user is paging through tickets
+    self.page_through_options: List[str] = ["", ""] # Where there might be more tickets to see
 
   def print_main_menu(self) -> None:
     """
@@ -153,7 +154,7 @@ class CLIApp():
       tickets = get_tickets_response.tickets
 
       # If API is unavailable, go back to main menu
-      if get_tickets_response.status_code != 200:
+      if get_tickets_response.status_code != 200 or tickets is None:
         self.is_page_through = False
         print(STATUS_CODE_MESSAGE[get_tickets_response.status_code])
         self.print_main_menu()
@@ -213,12 +214,18 @@ class CLIApp():
       get_tickets_response = self.ticket_viewer.get_tickets()
 
       # If we fail to connect to API, remain at main menu
-      if get_tickets_response.status_code != 200:
+      if get_tickets_response.status_code != 200 or \
+        get_tickets_response.tickets is None:
         print(STATUS_CODE_MESSAGE[get_tickets_response.status_code])
         self.print_main_menu()
       
+      # If somehow there is 0 ticket returned
+      elif not len(get_tickets_response.tickets):
+        print("\nThere are no tickets to see.")
+        self.print_main_menu()
+
       # If there are <=25 tickets, print table and remain at main menu
-      elif count <= 25:
+      elif count <= 25 or len(get_tickets_response.tickets) < 25:
         self.print_table(get_tickets_response.tickets)
         self.print_main_menu()
 
@@ -238,7 +245,7 @@ class CLIApp():
 
     response = self.ticket_viewer.get_individual_ticket(ticket_number)
     
-    if response.status_code == 200:
+    if response.status_code == 200 and response.tickets is not None:
       self.print_table(response.tickets)
       self.print_main_menu()
 
